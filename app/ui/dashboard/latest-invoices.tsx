@@ -2,6 +2,14 @@ import { ArrowPathIcon } from '@heroicons/react/24/outline';
 import clsx from 'clsx';
 import Image from 'next/image';
 import { lusitana } from '@/app/ui/fonts';
+interface LatestInvoice {
+  id: string;
+  name: string;
+  email: string;
+  image_url: string;
+  amount: string;
+}
+
 
 export default async function LatestInvoices({
   latestInvoices,
