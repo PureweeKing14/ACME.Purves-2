@@ -1,6 +1,9 @@
 import '@/app/ui/global.css';
 import {inter} from '@/app/ui/fonts';
-export default function RootLayout({
+import MyComponent from './page';
+
+
+export default function RootLayout ({
   children,
 }: {
   children: React.ReactNode;
